@@ -158,10 +158,6 @@ a {
    transform: rotate(45deg);
    transition: 2s ease all;
 
-   
-
-   
-
 } */
 
 
@@ -203,9 +199,10 @@ a {
 }
 
 .scroll h2:hover {
-    font-size: 40px;
+    /* transform: scale(1.2,1.5); */
+    transform: translate(-10px,10px);
     text-shadow: #696969;
-    color: #176fc8;
+    color: #1e1e1f;
 }
 
 .icon {
