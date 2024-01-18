@@ -202,7 +202,7 @@ a {
     /* transform: scale(1.2,1.5); */
     transform: translate(-10px,10px);
     text-shadow: #696969;
-    color: #1e1e1f;
+    color: #000;
 }
 
 .icon {
