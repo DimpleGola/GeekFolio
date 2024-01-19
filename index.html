@@ -9,23 +9,31 @@
     <script src="https://kit.fontawesome.com/7a1fac52cb.js" crossorigin="anonymous"></script>
 
     <link rel="shortcut icon" href="image/G_icon.png" type="image/x-icon">
+
+    <!-- Font-  Sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <h2>GeekFolio</h2>
+            <!-- <h2>GeekFolio</h2> -->
+            <img src="image\logo-dark.png">
         </div>
         <nav class="navbar">
             <ul>
                 <li><a href="#home">HOME</a></li>
-                <li><a href="#services">SERVICE</a></li>
-
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="form1.html" target="_blank">REGISTER</a></li>
                 <li><a href="#portfolio">PORTFOLIO</a></li>
                 <li><a href="#resume">RESUME</a></li>
                 <li><a href="#blog">BLOG</a></li>
                 <li><a href="#contact" target="_blank">CONTACT</a></li>
-                <li><a href="form1.html" target="_blank">REGISTER</a></li>
+
             </ul>
         </nav>
         <div class="search">
@@ -34,18 +42,25 @@
     </header>
     <section class="intro" id="home">
         <div class="introduction">
-            <h6>Hello <i class="fa-solid fa-hand"></i> I'm Chadwick Boseman</h6>
+
+            <h6>Hello <i class="fa-solid fa-hand"></i> I'm Chadwick Boseman.</h6>
             <h1>A Visual Designer Specializing in UI & UX</h1>
 
             <div>
                 <p>We appreciate your trust greatly our clients choose us & our products because
                     they know we are the best.</p>
             </div>
+
         </div>
         <div class="introduction2"> <img src="image/geek.png">
         </div>
 
     </section>
+
+
+
+
+
     <section class="scroll">
         <span class="icon">*</span>
         <h2>WEB DEVELOPMENT</h2>
@@ -66,7 +81,7 @@
             <p>Our Services</p>
         </div>
         <div style="padding-top: 20px; ">
-            <p style="font-size: 20px;font-weight: normal;">View All Services &nbsp;<i
+            <p style="font-size: 20px;font-weight: normal;text-decoration: underline;">View All Services &nbsp;<i
                     class="fa-solid fa-arrow-up-right-from-square"></i></p>
         </div>
     </section>
@@ -80,8 +95,7 @@
         </div>
         <div class="service-box1">
             <img src="image/b.png">
-            <h2>Brand Strategy &
-                Art Direction<p>Creating a higher spacing and how people move through a unique.</p>
+            <h2>UX/UI Design & Website/App Design<p>Creating a higher spacing and how people move through a unique.</p>
             </h2>
 
         </div>
@@ -94,8 +108,7 @@
         </div>
         <div class="service-box1">
             <img src="image/b.png">
-            <h2>Brand Strategy &
-                Art Direction<p>Creating a higher spacing and how people move through a unique.</p>
+            <h2>UX/UI Design & Website/App Design<p>Creating a higher spacing and how people move through a unique.</p>
             </h2>
 
         </div>
@@ -129,7 +142,7 @@
             <p>Selected works</p>
         </div>
         <div style="padding-top: 20px; ">
-            <p style="font-size: 20px;font-weight: normal;">View All Works &nbsp;<i
+            <p style="font-size: 20px;font-weight: normal; text-decoration: underline;">View All Works &nbsp;<i
                     class="fa-solid fa-arrow-up-right-from-square"></i></p>
         </div>
     </section>
@@ -266,6 +279,17 @@
                 done.</p>
 
 
+                <div style="display: flex; width: 100%; height: 100px;">
+                    <div style="width: 30%; height: auto;"><img src="image\test2.webp"
+                            style="width: 80px; height:80px; border-radius: 50%; margin: 30px 20px;">
+                    </div>
+                    <div style="margin: 30px 50px; width: 70%;">
+                        <h3>Leonard Heiser</h3>
+                        <p>C E O</p>
+                    </div>
+                </div>
+
+
 
         </div>
         <div class="test1">
@@ -282,6 +306,18 @@
                 working with a team that can get the job
                 done.</p>
 
+            <div style="display: flex; width: 100%; height: 100px;">
+                <div style="width: 30%; height: auto;"><img src="image\test1.webp"
+                        style="width: 80px; height:80px; border-radius: 50%; margin: 30px 20px;">
+                </div>
+                <div style="margin: 30px 50px; width: 70%;">
+                    <h3>Bear Grylls                     
+                    </h3>
+                    <p>MANAGER</p>
+                </div>
+            </div>
+        
+
         </div>
 
     </section>
@@ -293,7 +329,7 @@
             <p>Latest News</p>
         </div>
         <div style="padding-top: 20px; ">
-            <p style="font-size: 20px;font-weight: normal;">View All Our News &nbsp;<i
+            <p style="font-size: 20px;font-weight: normal; text-decoration: underline;">View All Our News &nbsp;<i
                     class="fa-solid fa-arrow-up-right-from-square"></i></p>
         </div>
     </section>
@@ -378,7 +414,7 @@
                     <textarea rows="10" cols="25" placeholder="Message"></textarea>
                 </p>
 
-                <button style="border-color: black; border-radius: 25px; font-size: 13.33px;">
+                <button class="call">
                     Let's Talk
                 </button>
 
