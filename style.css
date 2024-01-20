@@ -22,12 +22,13 @@ header {
     background-color: #f1f3f5;
     border-bottom: 2px solid rgb(207, 207, 207);
 
+
     /* 
     to make header stick to the top : make sure to give background color*/
 
 
     position: sticky;
-    z-index: 1;
+    z-index: 9999;
     top: 0;
 
 
@@ -55,8 +56,9 @@ header {
     
 }
 .logo img:hover {
-    transform: rotate(-20deg);
-    transition: 2s ease all;
+    /* transform: rotate(-20deg);
+    transition: 2s ease all; */
+    cursor: pointer;
 }
 
 .navbar {
@@ -144,7 +146,7 @@ a {
 }
 
 .introduction {
-    padding-top: 10%;
+    padding-top: 5%;
     line-height: normal;
     width:50%;
 
@@ -221,9 +223,10 @@ a {
 
 .scroll h2:hover {
     /* transform: scale(1.2,1.5); */
-    transform: translate(-10px, 10px);
+    /* transform: translate(-10px, 10px); */
     text-shadow: #696969;
     color: #1e1e1f;
+    cursor: pointer;
 }
 
 .icon {
@@ -344,8 +347,12 @@ a {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #7F7F7F;
     font-size: 70px;
+    z-index: 1000;
+    position: relative;
     
 }
+
+
 
 .intro2 img {
     width: 50%;
@@ -356,7 +363,14 @@ a {
 
 
 }
-
+.Creative .creative-er{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    color: #fff;
+    z-index: 1000;
+    font-size: 70px;
+    font-weight: bold;
+}
 
 /* Transform image */
 .intro2 img:hover {
